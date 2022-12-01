@@ -1,10 +1,12 @@
 <script>
 
 import AppTitle from "./components/AppTitle.vue";
+import AppHero from "./components/AppHero.vue";
+
 
 export default {
 
-  components: { AppTitle },
+  components: { AppTitle, AppHero },
 
   data() {
     return {
@@ -17,10 +19,13 @@ export default {
 
 <template>
 
+  <!-- Jumbotron -->
   <div>
-    <h1>
-      <AppTitle></AppTitle>
-    </h1>
+    <AppHero></AppHero>
   </div>
 
 </template>
+
+<style>
+
+</style>
